@@ -13,7 +13,7 @@ Get the port that the container is listening on:
 ```
 # docker ps
 CONTAINER ID        IMAGE                COMMAND             CREATED             STATUS              PORTS               NAMES
-63a0ba73bf81        nowage/ubuntu:test   "/bin/bash"         4 seconds ago       Up 3 seconds                            u1
+63a0ba73bf81        poui9501/ubuntu:v2   "/bin/bash"         4 seconds ago       Up 3 seconds                            u1
 ```
 
 To test,
@@ -23,5 +23,5 @@ To test,
 To Rollback
 ```
     docker rm u1 -f 
-    docker rmi nowage/ubuntu:test
+    docker rmi poui9501/ubuntu:test
 ```
